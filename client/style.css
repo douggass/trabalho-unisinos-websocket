@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #262D63;
+}
+
+.fl {float: left} 
+.wd100 {width: 100%;}
+
+.panel {
+    width: 95%;
+    border-radius: 15px;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.panel-inf {
+    padding: 9px;
+    /*border: .5px solid white;*/
+}    
+
+.row {
+    padding: 10px;
+}
+
+.msn-panel {
+    height: 300px;
+    margin-bottom: 7px;
+    margin-top: 3px;
+    padding: 4px;
+    overflow-y: scroll;
+}
+
+input, textarea {
+    border: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input#submit {
+    width: 100%;
+    background: #7A81A7;
+    padding: 5px 0;
+}
+
+textarea#mensagem {
+    border: 1px solid black;
+    height: 60px;
+}
+
+input#nickname {
+    border-bottom: 1px solid;
+}
+
+img {
+    padding: 3px 15px;
+}

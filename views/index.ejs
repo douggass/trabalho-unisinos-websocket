@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Trabalho unisinos</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- <img src="http://www.unisinos.br/modules/mod_padraotopo/img/logo.gif" alt="Unisinos" width="150" height="39"> -->
+    <div class="panel msn-panel">
+      <div id="mensagens"></div>
+      <div style="clear: left"></div>
+    </div>
+    
+    <div class="panel panel-inf">
+      <div class="row">
+        <label for="nickname">Nome: </label>
+        <input type="text" class="" value="" placeholder="" id="nickname" name="nickname">
+      </div>
+      <div class="row">
+        <textarea class="wd100" value="" placeholder="" id="mensagem" name="mensagem"></textarea>
+        <input type="button" class="" name="submit" id="submit" value="enviar" />
+      </div>
+      <div style="clear: left"></div>
+    </div>
+    
+  </body>
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script src="app.js"></script>
+</html>
