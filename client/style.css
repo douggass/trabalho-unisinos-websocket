@@ -1,10 +1,29 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 body {
     padding: 0;
     margin: 0;
     background-color: #262D63;
+    font-family: 'Slabo 27px', serif;
+}
+
+header {
+    
+}
+
+.titulo {
+    padding: 10px 0 0 0;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+
+.logo {
+    width: 120px;
 }
 
 .fl {float: left} 
+.fr {float: right} 
 .wd100 {width: 100%;}
 
 .panel {
@@ -25,11 +44,11 @@ body {
 }
 
 .msn-panel {
-    height: 300px;
+    min-height: 300px;
     margin-bottom: 7px;
     margin-top: 3px;
     padding: 4px;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
 }
 
 input, textarea {
@@ -37,12 +56,14 @@ input, textarea {
     margin: 0;
     outline: none;
     box-sizing: border-box;
+    font-family: 'Slabo 27px', serif;
 }
 
 input#submit {
     width: 100%;
     background: #7A81A7;
     padding: 5px 0;
+    cursor: pointer;
 }
 
 textarea#mensagem {
@@ -56,4 +77,10 @@ input#nickname {
 
 img {
     padding: 3px 15px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
