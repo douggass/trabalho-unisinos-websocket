@@ -1,5 +1,5 @@
-var socket = io('https://trabalho-unisinos-douggass.c9users.io');
-
+//var socket = io('https://trabalho-unisinos-douggass.c9users.io');
+var socket = io();
 
 window.onload = function() {
     document.getElementById('mensagem').disabled = true;
