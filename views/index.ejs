@@ -7,13 +7,39 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    
+    <div class="informacoes">
+      <ul>
+        <li class="minhas-informacoes" id="meu-nome"></li>
+        <li>Amanda A</li>
+        <li>Fernanda S</li>
+      </ul>
+    </div>
+    
+    <div class="frame" id="row_nickname">
+      <div class="row">
+        <h1>Informações do usuário:</h1>
+      </div>
+      <div class="row">
+        <label for="nickname">Nome: </label>
+        <input type="text" class="" value="" placeholder="" id="nickname" name="nickname">
+      </div>
+      <div class="row">
+        <input type="button" class="" name="name" id="save-name" value="Salvar nome" />
+      </div>      
+    </div>
+    
+    <div class="all" id="all"></div>
+    
+    <div class="new-user" style="display: none;" id="new-user">
+      
+    </div>
+    
     <header>
       <img src="http://www.unisinos.br/modules/mod_padraotopo/img/logo.gif" alt="Unisinos" class="fl logo">
       <div class="fr titulo">Redes de Computadores I</div>      
       <div style="clear: both"></div>
     </header>
-    
-    <div class="frame"></div>
     
     <div class="panel msn-panel">
       <div id="mensagens"></div>
@@ -21,10 +47,6 @@
     </div>
     
     <div class="panel panel-inf">
-      <div class="row" id="row_nickname">
-        <label for="nickname">Nome: </label>
-        <input type="text" class="" value="" placeholder="" id="nickname" name="nickname">
-      </div>
       <div class="row">
         <textarea class="wd100" value="" placeholder="" id="mensagem" name="mensagem"></textarea>
         <input type="button" class="" name="submit" id="submit" value="enviar" />

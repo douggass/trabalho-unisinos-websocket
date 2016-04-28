@@ -16,10 +16,17 @@ app.get('/', function(req, res){
 
 io.on('connection', function (socket) {
     
-    socket.on('chat message', function(data) {
-        io.emit('chat message', data);
+    socket.on('new user', function(data) {
+        io.emit('show user new', data);
     });
     
+    socket.on('chat message', function(data) {
+        io.emit('chat message', data);
+        console.log(data);
+        console.log(socket);
+    });
+    
+    /*socket.on('disconnect', function(data){});*/
     
 });
 
